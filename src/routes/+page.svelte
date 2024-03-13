@@ -20,7 +20,7 @@
     }
 
     onMount(async () => {
-        pi = await (await fetch('/pi_1_million.txt')).text();
+        pi = await (await fetch('/pi/pi_1_million.txt')).text();
         reset();
     });
 
