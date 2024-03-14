@@ -88,10 +88,10 @@
                 <span class="border-b-4 border-b-red-500 text-red-500">
                     {lossCharacter}
                 </span>
-                <span class="fixed -translate-y-full text-emerald-600">
+                <span class="fixed -translate-y-full text-emerald-600 fade-in">
                     {pi[index]}
                 </span>
-                <span class="absolute left-full">
+                <span class="absolute left-full fade-in">
                     {pi.slice(index + 1, index + spacing)}
                 </span>
             {/if}
